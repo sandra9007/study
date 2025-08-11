@@ -1,0 +1,69 @@
+.body{
+    font-family: 	'Playfair Display', serif;
+}
+
+.login-header{
+        height: 90px;
+    background: #6a1b9a;
+    margin-top: -21px;
+}
+.followup{
+        color: white;
+    font-size: large;
+
+}
+.login-container{
+    background-color: #EBCEFF;
+    height: 750PX;
+    padding-top: 10px; 
+    display: flex;            /* Flexbox enabled */
+  justify-content: center;  /* Center horizontally */
+  align-items: center; 
+}
+.login-box{
+    background-color:#ffffff;
+    width: 300px;
+    margin-top: 10px;
+   align-items: stretch; /* Aligns all child elements to fill width */
+  gap: 15px; /* Adds space between elements */
+  text-align: left;
+    height: 450px;
+    border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  
+    padding-top: 23px;
+  text-align: center;
+
+}
+.login-box h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-box label {
+  font-weight: 500;
+  color: #2e2e2e;
+}
+
+.login-box input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.login-button {
+  margin-top: 20px;
+  width: 50%;
+  padding: 10px;
+  background-color: #7e57c2;
+  color: rgb(11, 11, 11);
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+.login-button:hover {
+  background-color:#512da8;
+}
